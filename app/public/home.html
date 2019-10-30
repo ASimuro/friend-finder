@@ -8,16 +8,26 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
 </head>
+<style>
+#one{
+    background:rgb(219, 217, 217);
+    padding:20px;
+}
+#two{
+    padding:20px;
+}
 
+</style>
 <body>
-    <div class="container-fluid">
+    <div class="container" id=one>
         <h1 class="display-4">Friend Finder!</h1>
         <hr class="my-4">
-        <p>Take the survey to see who you are friends with from "The Office".</p>
+        <h4>Take the survey to see who you are friends with from "The Office".</h4>
         <a href="/survey"><button type="button" class="btn btn-lg btn-primary"><span class="glyphicon glyphicon-list-alt"></span> Survey</button></a>
     </div>
+    
 <footer>
-    <div class="container-fluid">
+    <div class="container" id=two>
     <a href="/api/friends">Friends API</a> |
     <a href="https://github.com/ASimuro/friend-finder">GitHub Repo</a>
     </div>
